@@ -8,9 +8,9 @@ replicas: 1
 # Extra environment variables to append to this nodeGroup
 # This will be appended to the current 'env:' key. You can use any of the kubernetes env
 # syntax here
-extraEnvs: []
-#  - name: MY_ENVIRONMENT_VAR
-#    value: the_value_goes_here
+extraEnvs: 
+  - name: "I18N_LOCALE"
+    value: "zh-CN"
 
 # A list of secrets and their paths to mount inside the pod
 # This is useful for mounting certificates for security and for mounting
