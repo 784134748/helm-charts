@@ -101,7 +101,7 @@ ingress:
   hosts:
     - kibana.ai-dynamic.com
   tls: 
-    - secretName: chart-example-tls
+    - secretName: k8s-kibana-tls
       hosts:
         - kibana.ai-dynamic.com
 

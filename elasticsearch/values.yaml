@@ -219,7 +219,7 @@ ingress:
   hosts:
     - elasticsearch.ai-dynamic.com
   tls: 
-    - secretName: chart-example-tls
+    - secretName: k8s-elasticsearch-tls
       hosts:
         - elasticsearch.ai-dynamic.com
 
