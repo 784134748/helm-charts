@@ -44,8 +44,8 @@ secretMounts: []
 #    secretName: elastic-certificates
 #    path: /usr/share/elasticsearch/config/certs
 
-image: "docker.elastic.co/elasticsearch/elasticsearch"
-imageTag: "7.4.1"
+image: "registry.cn-hangzhou.aliyuncs.com/yalong_lee_release/elasticsearch"
+imageTag: "v7.4.1"
 imagePullPolicy: "IfNotPresent"
 
 podAnnotations: {}
